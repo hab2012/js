@@ -18,5 +18,37 @@ console.log('aslam'.toUpperCase());
 
 // to remove white spaces only between the quotations
 console.log('  Aslam  '+'  Habeeb  ');
-console.log(('      AslamHabeeb  ').trim());
+console.log(('      AslamHabeeb  ').trim());// trim removes only front and back spaces
 
+
+//variables Var
+var favoriteFood = 'pizza'
+var numOfSlices = 8
+console.log(favoriteFood, numOfSlices)
+
+//let 
+let changeMe = true
+changeMe = false
+console.log(changeMe)
+
+// constant const in const variable you cannot reasssign the value if you try to do so u get type error
+
+// Mathematical operators
+let w = 4;
+w ++ ;
+console.log(w);
+
+// string concatination
+favoriteAnimal = 'cat'
+console.log(typeof favoriteAnimal)
+console.log('My favorite animal: ' + favoriteAnimal)
+
+// another method for combining is string interpolation
+
+let myName = 'Habeeb'
+let myCity = 'Melbourne'
+console.log(`my name is ${myName}, my favorite city is ${myCity}.`)
+
+// type of
+var Aslam=1.980
+console.log(typeof Aslam)
